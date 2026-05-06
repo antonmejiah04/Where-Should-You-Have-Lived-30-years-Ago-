@@ -49,7 +49,9 @@ Reads all QCEW zips, filters to state-level private-sector all-industry rows (`o
 - `data/wages_growth.csv` — % change from 1990
 - `data/wages_growth_2000.csv` — % change from 2000
 
-**IMPORTANT**: This section will take the longest, especially the formatting for wage growth. Expect up to 5-10 minutes for it to load.
+**IMPORTANT**: This section will take the longest, especially the formatting for wage growth. Expect up to 5-10 minutes for it to load if doing all years.
+However this can also function without all of them as long as there are two different files of two seperate years the following scripts will work but naturally, there is less of a comparison that is can run (ex. Downloading just 1990 and 2024, or 2000 and 2010)
+**This will impact all the following maps, charts, and scatter plots but the key years are the 5 year increments from 1990 onward**
 ### Step 2: Fetch Rent
 ```
 python fetch_rent.py
