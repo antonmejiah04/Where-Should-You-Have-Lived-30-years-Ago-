@@ -16,7 +16,7 @@ Resetting the baseline to 2000 strips that tailwind away. With the 1990s boom re
 - Place Files in: `HUD Rent Data/FMR_2Bed_1983_2026.xlsx`
 ### 3. US Census Shapefile
 - Source: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
-- File Needed: `cb_2024_us_state_500k.zip` (state-level, 500k resolution)
+- File Needed: `cb_2025_us_state_500k.zip` (state-level, 500k resolution)
 - Place Files In: `shapefiles/cb_2024_us_state_500k.zip`
 ---
 ## Expected Directory Structure
