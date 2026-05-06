@@ -1,0 +1,54 @@
+# Python
+*.py[cod]
+__pycache__/
+*.egg-info/
+
+# Spyder
+.spyproject/
+.spyder-py3/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Raw input data (download per README)
+QCEW Data Files/
+HUD Rent Data/
+shapefiles/
+
+# Generated intermediate CSVs
+data/
+
+# Defensive catch-alls for large formats
+*.zip
+*.xlsx
+*.gpkg
+*.pkl
+
+# Shapefile components (if ever unzipped)
+*.cpg
+*.dbf
+*.prj
+*.sh[px]
+
+# OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*~
+*.bak
+*.swp
+._*
+
+# Editors
+.vscode/
+.idea/
+
+# R (probably not needed, but harmless)
+.Rhistory
+.Rdata
