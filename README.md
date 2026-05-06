@@ -39,7 +39,7 @@ project/
 ```
 ---
 ## Execution Order
-### Step 1: Fetch Wages
+### Step 1: Fetch Wages 
 ```
 python fetch_wages.py
 ```
