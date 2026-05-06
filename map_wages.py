@@ -9,7 +9,7 @@ plt.rcParams["figure.dpi"] = 300
 #%%
 # Paths and settings
 growth_csv = os.path.join("data", "wages_growth.csv")
-shapefile = os.path.join("shapefiles", "cb_2024_us_state_500k.zip")
+shapefile = os.path.join("shapefiles", "cb_2025_us_state_500k.zip")
 output_dir = "maps"
 target_years = [1995, 2000, 2005, 2010, 2015, 2020, 2024]
 cmap = "RdYlGn"

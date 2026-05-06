@@ -9,7 +9,7 @@ plt.rcParams["figure.dpi"] = 300
 #%%
 # paths and settings
 gap_csv = os.path.join("data", "wages_vs_rent_2000.csv")
-shapefile = os.path.join("shapefiles", "cb_2024_us_state_500k.zip")
+shapefile = os.path.join("shapefiles", "cb_2025_us_state_500k.zip")
 output_dir = "maps_2000"
 target_years = [2000, 2005, 2010, 2015, 2020, 2024]
 
